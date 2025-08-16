@@ -1,0 +1,17 @@
+{
+	"name": "Existing Dockerfile",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+	    "vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"GrapeCity.gc-excelviewer",
+				"ms-azuretools.vscode-containers"
+			]
+		}
+	}
+}
