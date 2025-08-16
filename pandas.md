@@ -1,8 +1,7 @@
 # unique()
 pandas.Series.unique()
-argument : list, array, Series
 ```python
 import pandas as pd
-pd.unique(argument)
-pd.argument.unique()
+pd.unique(argument) # argument : list, array, Pandas.Series
+pd.Series.unique()
 ```
