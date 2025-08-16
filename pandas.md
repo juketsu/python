@@ -1,6 +1,8 @@
-# test
-test
-
+# unique()
+pandas.Series.unique()
+argument : list, array, Series
 ```python
-def greet(name): return f"Hello, {name}!" print(greet("Alice"))
+import pandas as pd
+pd.unique(argument)
+pd.argument.unique()
 ```
