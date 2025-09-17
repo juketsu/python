@@ -1,0 +1,12 @@
+# usage of python in excel
+# 1. get data which is ";" separeted values in A1 cell as argument s
+# 2. separete the the data in A1 as arg s by ";" into arg vals
+# 3. arg vals will convert to pandas dataframe type then show in cells you preffered
+
+import pandas as pd
+
+s = str(xl("A1"))
+
+vals = [x.strip() for x in s.split(';') if x != '']
+
+pd.DataFrame(vals)
